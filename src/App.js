@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+//import modules
 import './App.css';
 import Users from './components/Users';
-import {BrowserRouter as Router, Route, Link,Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
 import CreateUser from './components/CreateUser';
 import EditUser from './components/EditUser';
+//root component
 function App() {
   return (
     <>
